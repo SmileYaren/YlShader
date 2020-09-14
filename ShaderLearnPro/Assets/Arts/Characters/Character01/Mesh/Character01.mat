@@ -35,6 +35,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _DissloveTex:
+        m_Texture: {fileID: 2800000, guid: 00ef235de979157458d3067a2eea96dd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _DissolveRampTex:
         m_Texture: {fileID: 2800000, guid: 67f280f963a601d47aac042b209eebdb, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -49,7 +53,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 2800000, guid: d636c4f5a57f26746a6b131f4ae5c090, type: 3}
-        m_Scale: {x: 1, y: 1}
+        m_Scale: {x: 2, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
         m_Texture: {fileID: 0}
@@ -69,8 +73,9 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _BumpScale: 1
-    - _Clip: 0
+    - _Clip: 0.614
     - _Cutoff: 0.5
+    - _Debug: 0
     - _DetailNormalMapScale: 1
     - _DiffuseIntensity: 1
     - _DissolveEnabled: 0
@@ -94,7 +99,7 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - _AddColor: {r: 0, g: 0, b: 0, a: 1}
-    - _Color: {r: 0, g: 0.76727796, b: 1, a: 1}
+    - _Color: {r: 0, g: 0, b: 0, a: 1}
     - _Direction: {r: 0.000009179115, g: -0.000000029802322, b: 0, a: 1}
     - _Emission: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
