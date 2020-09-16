@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Course/Dissolve/opt.unity
+- path: Assets/Scenes/GI.unity
   isLoaded: 1
   isActive: 1
