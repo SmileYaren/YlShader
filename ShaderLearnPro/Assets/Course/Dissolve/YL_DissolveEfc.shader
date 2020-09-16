@@ -68,7 +68,7 @@
 
                 //消融效果 从黄黑图RampTex中采样颜色，位置使用无序图 value=1 对应RampTex上的u=1的颜色
 
-                fixed4 rampTex = tex1D(_RampTex,smoothstep(_Clip-0.02f,_Clip+0.08,dissloveTex.r));
+                fixed4 rampTex = tex1D(_RampTex,smoothstep(_Clip-0.05f,_Clip+0.08,dissloveTex.r));
                 c+=rampTex;
                 return c;
             }

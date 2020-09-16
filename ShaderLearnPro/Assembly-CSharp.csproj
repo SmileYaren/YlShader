@@ -82,6 +82,7 @@
     <None Include="Assets\Arts\Shaders\BuildIn\CGIncludes\MyPhysicallyBasedRendering.cginc" />
     <None Include="Assets\ShaderToy\DefaultShaderToy.shader" />
     <None Include="Assets\Arts\Shaders\BuildIn\HeatDistort03.shader" />
+    <None Include="Assets\作业\作业_纹理与UV\Bust.shader" />
     <None Include="Assets\Arts\Shaders\BuildIn\Fog.shader" />
     <None Include="Assets\Arts\Shaders\BuildIn\LightModel.shader" />
     <None Include="Assets\Arts\Shaders\BuildIn\Effects.shader" />

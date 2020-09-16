@@ -1,4 +1,0 @@
-sceneSetups:
-- path: Assets/Course/Dissolve/opt.unity
-  isLoaded: 1
-  isActive: 1
