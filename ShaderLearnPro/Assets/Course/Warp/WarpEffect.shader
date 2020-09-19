@@ -19,7 +19,7 @@
         _MaskUVSpeedX("_MaskUVSpeedX",float) = 0
         _MaskUVSpeedY("_MaskUVSpeedY",float) = 0
         [Hearder(Distort)]
-        [Toggle]DistortEnabled("DistortEnabled",int) = 0
+        // [Toggle]DistortEnabled("DistortEnabled",int) = 0
         _DistortTex("DistortTex",2D) = "white"{}
         _Distort("Distort",Range(0,1)) = 0
         _DistortUVSpeedX("_DistortUVSpeedX",float) = 0
@@ -41,7 +41,7 @@
             #pragma vertex vert
             #pragma fragment frag
             #pragma shader_feature _MASKENABLED_ON
-            #pragma shader_feature _DISTORTENABLED_ON
+            // #pragma shader_feature _DISTORTENABLED_ON
 
             // make fog work
             #pragma multi_compile_fog
@@ -90,11 +90,11 @@
                 fixed2 distort = i.uv.xy;
 
 
-                #if _DISTORTENABLED_ON //暂时不知道原因
+                // #if _DISTORTENABLED_ON //暂时不知道原因
                     // //采样扭曲纹理
                     fixed4 distortColor = tex2D(_DistortTex,i.uv2);
                     distort = lerp(i.uv,distortColor,_Distort);
-                #endif
+                // #endif
                 // sample the texture
                 fixed4 mainTexColor = tex2D(_MainTex,distort);
                 col*=mainTexColor;
